@@ -4,7 +4,7 @@ pipeline
     stages {
         stage("stage1") {
           steps {
-              sh 'cat fileA'
+              sh 'cat fileA.txt'
           }
         }
     }
