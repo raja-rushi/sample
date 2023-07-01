@@ -5,7 +5,7 @@ pipeline
         stage("stage1") {
           steps {
               script {
-                   sh 'ls'
+                   type 'fileA'
                    //def data = readFile(file: 'fileA.txt')
                    //println(data)
                }            //sh 'cat /workflow/sample/fileA'
