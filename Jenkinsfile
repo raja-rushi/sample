@@ -6,7 +6,7 @@ pipeline
           steps {
               sh 'ls'
               sh 'dir'
-              sh 'cat fileA.txt'
+              sh 'cat /workflow/sample/fileA.txt'
           }
         }
     }
